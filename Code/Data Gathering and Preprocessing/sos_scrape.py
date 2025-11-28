@@ -24,10 +24,6 @@ def sos_scrape(year):
     
     
     return df
-    
-    
-    
-
 
 
 ############

@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Mar 13 20:01:38 2022
-
-@author: ahaan
-"""
-###################### TO DO LIST
-
-
-######################
-
-
-
-
 import pandas as pd
 import numpy as np
 from adp_scrape import adp_scrape
@@ -265,17 +251,19 @@ full_data.to_csv('fantasy_data.csv')
 
 
 ### Testing
-#need_fix.to_csv('fix_names.csv')
+need_fix.to_csv('fix_names.csv')
 
-#test = stats_data[stats_data['Player'].str.contains('Ronald')]
-#last_year = full_data[full_data['Year'] == '2020']
-#players_list = stats_data['Player'].unique()
-#need_fix_list = [name for name in need_fix if name not in players_list]
-# See if in list
-#test_name = 'Cottrell'
+test = stats_data[stats_data['Player'].str.contains('Ronald')]
+last_year = full_data[full_data['Year'] == '2020']
+players_list = stats_data['Player'].unique()
+need_fix_list = [name for name in need_fix if name not in players_list]
+See if in list
+test_name = 'Cottrell'
 
-#stats_data[stats_data['Player'].str.contains(test_name)]['Player'].unique()
-#age_team_data[age_team_data['Player'].str.contains(test_name)]['Player'].unique()
+stats_data[stats_data['Player'].str.contains(test_name)]['Player'].unique()
+age_team_data[age_team_data['Player'].str.contains(test_name)]['Player'].unique()
+
+# all tests passed!
 
 
 
