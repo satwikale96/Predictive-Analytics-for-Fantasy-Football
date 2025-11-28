@@ -1,0 +1,2 @@
+,Cooks,Boxcox,PCA,Cutoff_Val,Model,rank_50,rank_median_50,points_rank_50,points_median_50,rank_20,rank_median_20,points_rank_20,points_median_20,test_rank_top,test_median_top,test_points_median_top,test_rank_bottom,test_median_bottom,test_points_median_bottom
+0,True,True,True,0,RF,98.34022778036802,5.962482017409521,471.5077837180624,32.102302425477944,204.37366388622587,9.965784284662087,2566.773555557481,114.1730030017194,1539.6759045815788,29.06687083026442,85.82272982849919,531.3020478027651,15.712749746047004,33.14497692130341

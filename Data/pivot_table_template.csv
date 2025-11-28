@@ -1,0 +1,15 @@
+,,,,Predictors,,,Response
+Current Year,,,,Historical Stats,,,Reponse Variable
+Player,Position,Current Year,,Last Year Stats,2Yr Ago Stats,3Yr Ago Stats,Current Year Fantasy Points
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Example Data:,,,Year,Year -1,year - 2,year - 3,year
+Player,Position,Current Year,,2020 Touchdowns,2019 Touchdowns,2018 Touchdowns,Current Year Fantasy Points
+,,,2021,2020,2019,2018,2021
+,,,,2018,2017,2016,2019
+Tom Brady,QB,2021,,18,7,30,123.4 Points
+Tom Brady,QB,2021,,,,,
+,,,,,,,
+,,,,,,,
+,,,,2010,2011,2012,2013
